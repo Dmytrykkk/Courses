@@ -1,5 +1,5 @@
 body {
-    background-color: #262524; /* Темний фон */
+    background-color: #262524;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -26,18 +26,18 @@ body {
 .header {
     font-size: 24px;
     font-weight: 700;
-    color: #CFF4D1; /* Світлий зелений */
-    text-align: center; /* Вирівнювання по центру */
-    margin-bottom: 20px; /* Відступ під заголовком */
+    color: #CFF4D1;
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0; /* Без проміжку між кнопкою і полем */
+    gap: 0;
     width: 100%;
-    margin-top: 20px; /* Відступ зверху */
+    margin-top: 20px; 
 }
 
 .input-container {
@@ -46,7 +46,7 @@ body {
     align-items: center;
     position: relative;
     width: auto;
-    gap: 0; /* Прибираємо проміжок між елементами */
+    gap: 0; 
 }
 
 h1, h2 {
@@ -66,7 +66,7 @@ p {
     color: #CCDCE6;
     margin-top: 0;
     margin-bottom: 0;
-    display: inline; /* Додаємо, щоб елементи <p> відображались на одній лінії */
+    display: inline; 
 }
 
 .input-container {
@@ -76,7 +76,7 @@ p {
     align-items: center;
     position: relative;
     width: auto;
-    gap: 0; /* Прибираємо проміжок між елементами */
+    gap: 0; 
 }
 
 input[type="text"] {
@@ -86,7 +86,7 @@ input[type="text"] {
     width: 600px;
     padding: 10px 15px;
     border: none;
-    border-radius: 25px 0 0 25px; /* Округлі кути тільки зліва */
+    border-radius: 25px 0 0 25px; 
     background-color: #d6d8f6;
     color: #241d1d;
     font-size: 16px;
@@ -99,14 +99,14 @@ input[type="text"]::placeholder {
 }
 
 button {
-    height: 65px; /* Висота кнопки */
-    width: 120px; /* Ширина кнопки */
+    height: 65px; 
+    width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     border: none;
-    border-radius: 0 25px 25px 0; /* Пряма ліва сторона, округла права */
+    border-radius: 0 25px 25px 0; 
     background-color: #8077BD;
     color: #0c0303;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -133,10 +133,10 @@ button:hover:enabled {
     color: #888;
 
     position: absolute;
-    bottom: 15vh; /* Ближче до поля пошуку */
-    display: none; /* Приховано за замовчуванням */
+    bottom: 15vh; 
+    display: none; 
     border: 6px solid #CFF4D1;
-    border-top: 6px solid #359D9E; /* Контрастний колір */
+    border-top: 6px solid #359D9E; 
     border-radius: 50%;
     width: 40px;
     height: 40px;
